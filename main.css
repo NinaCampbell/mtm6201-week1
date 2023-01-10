@@ -1,0 +1,63 @@
+/* Styles main background colour */
+html {
+    background-color: #C1A69E;
+}
+/* Styles container padding */
+.container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Styles container contents */
+h1 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #534A47;
+    color: #C1A69E;
+    border: solid 5px #A78C84;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+img {
+    border-right: 5px solid #534A47;
+    border-bottom: 5px solid #534A47;
+    border-top: 5px solid #A78C84;
+    border-left: 5px solid #A78C84;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+p {
+    font-family: sans-serif;
+    color: #252829;
+    float: left;
+    padding-left: 15px;
+}
+
+/* Styles description list */
+.list-container {
+    float: left;
+}
+
+.list {
+    font-family: sans-serif;
+    border: 5px solid #A78C84;
+    background-color: #534A47;
+    color: #C1A69E;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    padding-left: 15px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    text-indent: -20%;
+}
