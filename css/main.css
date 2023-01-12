@@ -6,6 +6,7 @@ html {
 .container {
     padding-left: 50px;
     padding-right: 50px;
+    margin-bottom: 70px;
 }
 
 /* Styles container contents */
@@ -27,31 +28,32 @@ img {
     width: 150px;
     height: 150px;
     float: left;
+    margin-right: 15px;
 }
 
 p {
     font-family: sans-serif;
     color: #252829;
-    float: left;
     padding-left: 15px;
+    line-height: 1.5;
 }
 
 /* Styles description list */
 .list-container {
-    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .list {
-    font-family: sans-serif;
     border: 5px solid #A78C84;
     background-color: #534A47;
+    font-family: sans-serif;
     color: #C1A69E;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 100%;
-    padding-left: 15px;
     text-align: left;
     line-height: 1.5;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 dt {
@@ -59,5 +61,5 @@ dt {
 }
 
 dd {
-    text-indent: -20%;
+    text-indent: -40px;
 }
